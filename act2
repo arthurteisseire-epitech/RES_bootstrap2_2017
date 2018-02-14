@@ -1,0 +1,37 @@
+Given the following class A address: 10.0.0.0/24,
+1 - How many bits have been borrowed from the HostID section?
+
+	16
+
+
+
+2 - What is this network’s subnetwork mask? (Decimal and binary representation)
+	
+	dec : 255.255.255.0
+	bin : 1111 1111.1111 1111.1111 1111.0000 0000
+
+
+
+3 - How many subnetworks are there? How many hosts per subnetwork?
+
+	65536 (2^16) : 254
+
+
+
+4 - What is the network address and the broadcast address of the 16th subnetwork?
+	
+	net : 10.0.15.0
+	broad : 10.0.15.255
+
+
+
+5 - What is the network address and the broadcast address of the last subnetwork?
+
+	net : 10.255.255.0
+	broad : 10.255.255.255
+
+
+
+6 - What is the network address and the broadcast address of the primary network?
+	net : 10.0.0.0
+	broad : 10.255.255.255
