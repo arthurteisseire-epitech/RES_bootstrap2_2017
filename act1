@@ -3,7 +3,7 @@ Subnetwork 2: 63 hosts
 	first host address : 192.168.1.1
 	last host address : 192.168.1.126
 	broadcast address : 192.168.1.127
-	subnetwork mask : 255.255.255.128 /16
+	subnetwork mask : 255.255.255.128 /25
 
 Subnetwork 1: 12 hosts
 	network address : 192.168.1.128

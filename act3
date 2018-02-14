@@ -1,0 +1,25 @@
+A business has received the following class B address: 172.16.0.0
+This primary network must be subdivided into 430 equal-sized subnetworks.
+
+1 - How many bits must be borrowed from the HostID section to create 430 subnetworks?
+
+	9 bits
+
+
+
+2 - How many bits remain in the HostID section for each subnetwork?
+
+	7 bits
+
+
+
+3 - How many hosts does each subnetwork have?
+
+	125 (2^7 - 3)
+
+
+
+4 - What is the subnetwork mask in CIDR and binary representation ?
+
+	dec : 255.255.255.128 /25
+	bin : 1111 1111.1111 111.1111 1111.1000 0000
